@@ -1,0 +1,25 @@
+<!Doctype html>
+<html>
+	<head>
+		<title>Dialog Box</title>
+		<link rel="stylesheet" type="text/css" href="http://localhost\registration\dialog.css" >
+	</head>
+	<body>
+		<div id="white-background"></div>
+		<div id="dlgbox">
+			<div id="dlg-header">STATUS</div>
+			<div id="dlg-body">Request has been approved.</div>
+			<div id="dlg-footer">
+				<button><a href="http://localhost/registration\officer_approved_request.php">Ok</a></button>
+			</div>
+		</div>
+		<script>
+			function dlglogin(){
+				var whitebg= document.getElementById("white-background");
+				var dlg= document.getElementById("dlgbox");
+				whitebg.style.display="none";
+				dlg.style.display="none";
+			}
+		</script>
+	</body>
+</html>
